@@ -1,0 +1,14 @@
+
+==============================================================================
+EXECUTIVE SUMMARY
+==============================================================================
+Network Model Used       : pandapower - Programmatically Built 13-Bus Feeder (Validated)
+Total Buses Analyzed     : 13
+Weakest Buses Identified : Bus13, Bus12, Bus11
+Base Case Status         : HEALTHY (no violations)
+Hosting Capacity (est.)  : Between 250% and 300% of local load at weak buses
+First Voltage Violation  : At 300% solar penetration (Bus Bus13 reaches 1.0549 pu)
+
+CONCLUSION:
+  Estimated hosting capacity for this feeder is 250%-300% of connected local load at its weakest buses. Beyond this threshold, midday PV export drives voltages above the 1.05 pu statutory limit; voltage regulation measures (smart inverters with Volt-VAR control, capacitor banks, or OLTC adjustment) would be required before approving further rooftop solar interconnection requests.
+==============================================================================
